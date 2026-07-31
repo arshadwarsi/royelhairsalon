@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Royal Hair Cutting Salon</title>
+<meta name="description" content="Royal Hair Cutting Salon - Hair Cut, Beard, Facial, Hair Color, Home Service Available 6 AM to 9 PM">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<style>
+html{scroll-behavior:smooth}
+.hero{background:linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.8)),url('https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1400&q=80') center/cover}
+.glass{background:rgba(255,255,255,.06);backdrop-filter:blur(10px)}
+</style>
+</head>
+<body class="bg-neutral-950 text-white">
+
+<nav class="fixed top-0 w-full bg-black/70 backdrop-blur z-50">
+<div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+<h1 class="text-2xl font-bold text-yellow-400">ROYAL HAIR CUTTING SALON</h1>
+<div class="space-x-5 hidden md:block">
+<a href="#services">Services</a>
+<a href="#price">Price</a>
+<a href="#contact">Contact</a>
+</div>
+</div>
+</nav>
+
+<section class="hero min-h-screen flex items-center">
+<div class="max-w-6xl mx-auto px-6">
+<h2 class="text-5xl md:text-7xl font-extrabold text-yellow-400">Premium Hair Styling</h2>
+<p class="mt-4 text-xl">Hair Cut • Beard • Facial • Hair Color</p>
+<div class="mt-6 flex flex-wrap gap-4">
+<a id="wa" href="https://wa.me/91XXXXXXXXXX?text=Hello%20Royal%20Hair%20Cutting%20Salon.%20I%20want%20to%20book%20Home%20Service." class="bg-green-500 px-6 py-3 rounded-full font-bold">Book on WhatsApp</a>
+<a href="tel:+91XXXXXXXXXX" class="bg-yellow-500 text-black px-6 py-3 rounded-full font-bold">Call Now</a>
+</div>
+<div class="mt-8 inline-block bg-red-600 px-5 py-2 rounded-full font-bold">🏠 Home Service Available • 6 AM – 9 PM</div>
+</div>
+</section>
+
+<section class="py-20 max-w-6xl mx-auto px-6">
+<div class="grid md:grid-cols-2 gap-10 items-center">
+<div>
+<img src="owner.jpg" alt="Owner" class="rounded-xl border-4 border-yellow-500 shadow-2xl">
+<p class="mt-3 text-sm text-gray-400">Replace <b>owner.jpg</b> with the salon owner's image.</p>
+</div>
+<div>
+<h2 class="text-4xl text-yellow-400 font-bold mb-4">About Us</h2>
+<p class="text-gray-300 leading-8">Welcome to Royal Hair Cutting Salon. We provide professional hair cutting, beard styling, facial, massage, bleach and hair coloring with quality products and affordable pricing. Home service is available every day from 6 AM to 9 PM.</p>
+</div>
+</div>
+</section>
+
+<section id="services" class="py-20 bg-neutral-900">
+<div class="max-w-6xl mx-auto px-6">
+<h2 class="text-4xl text-center font-bold text-yellow-400 mb-10">Our Services</h2>
+<div class="grid md:grid-cols-3 gap-6">
+<script>
+</script>
+</div>
+</div>
+</section>
+
+<section id="price" class="py-20 max-w-6xl mx-auto px-6">
+<h2 class="text-4xl text-yellow-400 text-center font-bold mb-10">Price List</h2>
+<div class="overflow-auto">
+<table class="w-full text-center border border-yellow-500">
+<thead class="bg-yellow-500 text-black">
+<tr><th class="p-3">Service</th><th>Style</th><th>Price</th></tr>
+</thead>
+<tbody id="tbody"></tbody>
+</table>
+</div>
+</section>
+
+<section class="py-20 bg-neutral-900">
+<div class="max-w-5xl mx-auto text-center px-6">
+<h2 class="text-4xl text-yellow-400 font-bold">UPI Payment Accepted</h2>
+<div class="mt-8">
+<img src="qr.png" class="mx-auto w-72 rounded-lg border-4 border-yellow-400">
+<p class="mt-3 text-gray-400">Replace <b>qr.png</b> with your QR code.</p>
+</div>
+</div>
+</section>
+
+<section id="contact" class="py-20 max-w-6xl mx-auto px-6">
+<h2 class="text-4xl text-yellow-400 font-bold text-center mb-8">Contact Us</h2>
+<div class="grid md:grid-cols-3 gap-6">
+<div class="glass p-6 rounded-xl"><i class="fa-solid fa-phone text-yellow-400 text-3xl"></i><h3 class="mt-3 font-bold">Phone</h3><a href="tel:+91XXXXXXXXXX">+91 XXXXXXXXXX</a></div>
+<div class="glass p-6 rounded-xl"><i class="fa-brands fa-whatsapp text-green-500 text-3xl"></i><h3 class="mt-3 font-bold">WhatsApp</h3><a href="https://wa.me/91XXXXXXXXXX">Chat Now</a></div>
+<div class="glass p-6 rounded-xl"><i class="fa-solid fa-clock text-yellow-400 text-3xl"></i><h3 class="mt-3 font-bold">Open Daily</h3><p>6:00 AM – 9:00 PM</p></div>
+</div>
+</section>
+
+<footer class="bg-black py-8 text-center text-gray-400">
+Royal Hair Cutting Salon © 2026
+</footer>
+
+<a href="https://wa.me/91XXXXXXXXXX?text=Hello%20Royal%20Hair%20Cutting%20Salon.%20I%20want%20to%20book%20Home%20Service." class="fixed bottom-6 right-6 bg-green-500 w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-2xl">
+<i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<script>
+const data=[
+["Hair Cutting","Simple","40"],
+["Hair Cutting","Design","50"],
+["Beard + Machine","Detail + Trim","30"],
+["Beard","Wonder Soft","40"],
+["Beard + Foam","Gillette","60"],
+["Massage","OLE Machine","100"],
+["Bleach","Fem","150"],
+["Bleach Mask","Charcoal","100"],
+["Hair Color Black","Indica + Garnier","90"],
+["Hair Color Red","Nisha + Garnier","100"],
+["Scrub","Opel","40"],
+["Face Pack","Massage Machine","70"],
+["Facial","Opel","80"],
+["Eyebrow","Opel","20"]
+];
+const tbody=document.getElementById("tbody");
+const grid=document.querySelector("#services .grid");
+data.forEach(x=>{
+tbody.innerHTML+=`<tr class="border-t border-yellow-700"><td class="p-3">${x[0]}</td><td>${x[1]}</td><td>₹${x[2]}</td></tr>`;
+grid.innerHTML+=`<div class="glass p-6 rounded-xl border border-yellow-600 hover:scale-105 duration-300"><h3 class="text-xl font-bold text-yellow-400">${x[0]}</h3><p class="mt-2">${x[1]}</p><p class="mt-4 text-2xl font-bold">₹${x[2]}</p></div>`;
+});
+</script>
+</body>
+</html>
